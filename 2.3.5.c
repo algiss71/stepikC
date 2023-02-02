@@ -28,7 +28,7 @@ int main ()
 
     scanf("%d", &a);
     scanf("%d", &b);
-    a>b ? printf("%d\n", a) : printf("%d\n",b);
+    a == b ? printf("%d\n", 0) : a > b ? printf("%d\n", 1) : printf("%d\n",2);
 
     return 0;
 }
